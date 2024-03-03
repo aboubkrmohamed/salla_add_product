@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>اضف المنتج</title>
+    <link rel="icon" href="img/logo-wide.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="fonts/PingARLT-Medium.woff2">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="fonts/v1.woff2">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    
+
+<section class="main-home">         
+
+    
+
+    <div class="row">
+
+        
+
+    <!-- dashbord -->
+     
+    <div class="col-md-2">
+
+        <!-- logo  -->
+        <div class="logo">
+            <img src="img/logo-wide.svg" class="w-50">
+        </div>
+
+        <!-- links  -->
+
+        <div class="links mt-3">
+
+            <div class=" index_link mt-5  ">
+                <span class="index">1</span>
+                <a href="#">معلومات التاجر</a>
+            </div>
+
+            
+            <div class="index_link mt-5 active  p-3">
+                <span class="index">2</span>
+                <a href="#"> أضف أول منتج</a>
+            </div>
+
+            
+            <div class="index_link mt-5">
+                <span class="index">3</span>
+                <a href="#"> فعل خيارات الشحن</a>
+            </div>
+
+            
+            <div class="index_link mt-5">
+                <span class="index">4</span>
+                <a href="#"> فعل المدفوعات الالكترونية</a>
+            </div>
+
+            
+            <div class="index_link mt-5">
+                <span class="index">5</span>
+                <a href="#">  اختر تصميم متجرك</a>
+            </div>
+
+            <div class="index_link mt-5">
+                <span class="index">6</span>
+                <a href="#"> أكتشف باقات سلة</a>
+            </div>
+
+        </div>
+    
+    
+    </div>
+     
+     
+        <div class="col-md-10 p-4 section_form" >
+
+            
+            <h3>  أضف أول منتج </h3>
+            <p>ابدأ بإضافة تفاصيل أول منتج تود عرضه في متجرك. </p>
+
+
+
+
+
+            
+  <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="20"  scrollbar-hide="true"
+  slides-per-view="4">
+
+  <swiper-slide>
+    <div class="swiper-slide_items ">
+
+        <div> <i class="fa-solid fa-cube icon_swiper-slide_items "></i>  </div>  
+        <div class="pe-3">
+            <h5>منتج جاهز</h5>
+            <span>المنتجات الملموسة والقابلة للشحن</span>
+        </div>
+        
+    </div>
+
+  </swiper-slide>
+  
+  <!----------->
+
+
+ 
+  <swiper-slide>
+    <div class="swiper-slide_items ">
+
+        <div> <i class="fa-solid fa-shuffle icon_swiper-slide_items "></i>  
+        </div>  
+        <div class="pe-3">
+            <h5>  خدمة حسب الطلب   </h5>
+            <span> التصميم، الطباعة، البحوث، الكتابة </span>
+        </div>
+        
+    </div>
+
+  </swiper-slide>
+
+
+  
+ 
+
+
+  <!----------->
+
+
+ 
+  <swiper-slide>
+    <div class="swiper-slide_items ">
+
+        <div> <i class="fa-solid fa-cookie icon_swiper-slide_items "></i>  
+
+        </div>  
+        <div class="pe-3">
+            <h5>أكل</h5>
+            <span>المشروبات التي تتطلب شحن خاص</span>
+        </div>
+        
+    </div>
+
+  </swiper-slide>
+
+
+<!------------->
+  
+<swiper-slide>
+    <div class="swiper-slide_items ">
+        <div> <i class="fa-solid fa-gamepad icon_swiper-slide_items "></i>  
+
+        </div>  
+        <div class="pe-3">
+            <h5>منتج رقمي</h5>
+            <span>الكتب الإلكترونية، الدورات، ملفات </span>
+        </div>
+        
+    </div>
+
+  </swiper-slide>
+
+
+ 
+<!------------->
+  
+<swiper-slide>
+    <div class="swiper-slide_items ">
+        <div> <i class="fa-solid fa-qrcode icon_swiper-slide_items "></i>  
+        </div>  
+        <div class="pe-3">
+            <h5>  بطاقة رقمية</h5>
+            <span>بطاقات شحن، حسابات للبيع</span>
+        </div>
+        
+    </div>
+
+  </swiper-slide>
+
+
+</swiper-container>
+
+
+ 
+
+
+
+
+
+            <form>
+                            <!-- logo project  -->
+            <div>
+                <h5>أضف صورة المنتج (اختياري) </h5>
+                <div class="logo_project">
+                    <label >اختار الصوره من الجهاز</label>
+                    
+                    <br>
+                    <input type="file" >
+                </div>
+
+
+            </div>
+
+            <!-- name product  -->
+            <div class="mt-5">
+                <div class="name_project">
+                    <h5 >اسم المنتج </h5>
+                    <!-- <br> -->
+                    <input type="text" placeholder="الرجاء ادخال اسم المنتج" class="form-control" required>
+                </div>
+
+
+            </div>
+
+                 <!-- price product  -->
+                 <div class="mt-5">
+                    <div class="name_project">
+                        <h5 >سعر المنتج </h5>
+                        <!-- <br> -->
+                        <input type="number" placeholder="حدد اسعار سعر المنتج" class="form-control" required>
+
+                    </div>
+    
+    
+                </div>
+        
+                 <!-- quntite product  -->
+                 <div class="mt-5">
+                    <div class="name_project">
+                        <h5 >كميه المنتج </h5>
+                        <!-- <br> -->
+                        <input type="number" placeholder="حدد كميه المنتج" class="form-control" required>
+
+                    </div>
+    
+    
+                </div>
+        
+
+ 
+            <div class="w-100  mt-5" style="text-align:left;">
+                <button class="btn btn-primary pt-2 pb-2 ps-5 pe-5 mt-5" type="submit" style="font-size: 1.3rem; font-weight: 700;">التالي</button>
+
+            </div>
+
+
+        </form>
+
+        </div>
+        
+        
+
+
+
+    </div>
+
+         
+</section>
+        
+   
+      
+ 
+
+<script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="js/js.js"></script>
+
+
+  <!--
+      <script src="js/wow.min.js"></script>
+     <script>
+          new WOW().init();
+          </script> 
+     <script src="js/loading.js"></script> -->
+
+ </body>
+</html>
